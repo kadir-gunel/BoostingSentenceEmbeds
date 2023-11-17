@@ -55,12 +55,7 @@ README = "THIS IS THE EXPERIMENT WHERE A SEQ2SEQ MODEL IS BEING USED. THE MODEL 
          a augmentor network which is a simple 1 layered FFNN with elu
          activation function that augments the 300 outputs from decoder
          to 768 dimensional vectors.
-         THIS EXPERIMENT CONTROLS 3 THINGS :
-         1. PP + EUCLIDEAN
-         2. PP + COSINE
-         3. PP
-         I EXPECT THAT THE FIRST 2 MODELS WILL HAVE SMALLER PP VALUES
-         THAN THE 3 ONE. 
+         Objective function : PP + COSINE
          "
 
 

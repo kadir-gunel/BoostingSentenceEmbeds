@@ -56,16 +56,15 @@ README = "THIS IS THE EXPERIMENT WHERE A TRANSFORMER ENCODER MODEL IS BEING USED
                  i. Takes the average of D x L x B tensor and outputs D x B
                  ii.The FFNN then converts this and outputs a 768 dimensional
                     vector for distance comparison.
-          THIS EXPERIMENT CONTROLS 3 THINGS :
-          1. EUCLIDEAN
-          2. COSINE
-          3. EUCLIDEAN + COSINE 
+          
+          
+          
+          . EUCLIDEAN + COSINE 
           IN THIS SET OF EXPERIMENTS, WE EXAMINE HOW WORD EMBEDDINGS CAN
           HAVE INFORMATION FROM SBERT SENTENCE EMBEDDINGS BY USING DISTANCE
           MINIMIZATION TECHNIQUE. 
 
-          (IN ADDITION, WE ALSO KEEP TRACK OF PP EVENTHOUGH IT IS NOT VALID!)
-          
+                   
          "
 
 
